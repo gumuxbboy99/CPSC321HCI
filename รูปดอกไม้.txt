@@ -1,0 +1,14 @@
+TO leaf
+repeat 90 [ fd 1 rt 1 ]
+rt 90
+repeat 90 [ fd 1 rt 1 ]
+rt 90
+END 
+pu setxy -200 0 pd lt 45
+repeat 5 [ leaf rt 72 ]
+
+pu setxy 0 0 pd lt 45
+repeat 5 [ leaf rt 72 ]
+
+pu setxy 200 0 pd lt 45
+repeat 5 [ leaf rt 72 ]
